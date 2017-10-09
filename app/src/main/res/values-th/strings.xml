@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="StringEnterNameScore">ป้อนชื่อและคะแนนของคุณ</string>
+    <string name="WhatYouGrade">คุณได้เกรดอะไร</string>
+    <string name="StringName">ชื่อ</string>
+    <string name="StringScore">คะแนน</string>
+    <string name="Exit">ออก</string>
+    <string name="Find_grade">คำนวนเกรด</string>
+</resources>

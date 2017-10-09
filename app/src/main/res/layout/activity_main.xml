@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.whatsyourgrade.MainActivity"
+    android:background="@drawable/classroom"
+    android:padding="24dp"
+    >
+
+
+    <TextView
+        android:id="@+id/what_Grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="What's Your Grade"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button3"
+        android:layout_below="@+id/what_Grade"
+        android:padding="24dp"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_Enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_weight="0.00"
+            android:text="@string/StringEnterNameScore" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="@string/StringName" />
+
+        <EditText
+            android:id="@+id/EnterName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:layout_marginBottom="25dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/StringScore" />
+
+        <EditText
+            android:id="@+id/EnterScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:ems="10"
+            android:inputType="number"
+            android:text="" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/findgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Findgrade"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/exit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
